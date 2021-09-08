@@ -35,7 +35,7 @@ The output should look similar to the following.  **Note:  This script returns 2
 ## 4.  Log into the AdventureWorks database via pgAdmin
 1.  Open pgAdmin.  You may need to set up a password if this is your first time using it.
 2.  Under Browser, right click and choose Create-->Server Group. Give the Server Group a name and then Choose Save. Mine is named Flexible.
-3.  Enter the name of the Azure Database for PostgreSQL Flexible Server along with the username you chose when you created the Server.  The output will look similar to the following:
+3.  Enter the name of the Azure Database for PostgreSQL Flexible Server along with the username you chose when you created the Server.  The output will look similar to the following:  
 ![Register Server](media/4a-RegisterServer.JPG 'Register Server')  
 4.  Expand the database in the Browser to view the AdventureWorks tables.   
 ![Expand AW](media/4b-AWExpanded.JPG  'Expand AW')
