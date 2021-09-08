@@ -12,7 +12,7 @@ param(
     $Location = "eastus",
     $PGServerName = "timchappgsql2" ,
     $PGAdminUserName = "timchapman",
-    $PGAdminPassword = "Password12345!!",
+    $PGAdminPassword,
     $PGSku = "Standard_D2s_v3",
     $PGSkuTier = "GeneralPurpose",
     $PGVersion = 12 ,
