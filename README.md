@@ -1,1 +1,1 @@
-# AdventureWorks for Azure Database for PostgreSQL
+# AdventureWorks database for Azure Database for PostgreSQL
