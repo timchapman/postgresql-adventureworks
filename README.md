@@ -1,6 +1,6 @@
-# AdventureWorks database for Azure Database for PostgreSQL
-AdventureWorks 2016 database backup converted to PostgreSQL schema.  Once you have provisioned an Azure Database for PostgreSQL Single or Flexible Server, use the following commands to restore the database:
-## 1.  Provision Azure Database for PostgreSQL Flexible Server
+# AdventureWorks database for Azure Database for PostgreSQL Flexible Server
+This project restores the SQL Server AdventureWorks 2016 database backup converted to PostgreSQL schema to an Azure Database for PostgreSQL Flexible Server instance.  
+## 1.  Provision an Azure Database for PostgreSQL Flexible Server instance
 1.  Open the script CreatePostgreSQLFlexibleServer.ps1 in Visual Studio Code or PowerShell ISE.  
 2.  Alter the parameters for the function to match what you want the servername, resource group, region and server parameters to be. 
 ![Add the necessary parameter values to deploy Flexible Server.](media/1a-RunFunction.jpg 'Server Parameters')
@@ -17,7 +17,7 @@ The output will look similar to this:
    ```
 The output will look similar to the following:  
 ![Server Login.](media/2a-PSQLLogin.JPG 'PSQL Login')
-4.  Create the AdventureWorks database by using the following SQL statement:  
+1.  Create the AdventureWorks database by using the following SQL statement:  
 ```
 CREATE DATABASE adventureworks;
 ```
