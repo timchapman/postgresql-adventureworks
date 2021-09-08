@@ -17,7 +17,7 @@ The output will look similar to this:
    ```
 The output will look similar to the following:  
 ![Server Login.](media/2a-PSQLLogin.JPG 'PSQL Login')
-1.  Create the AdventureWorks database by using the following SQL statement:  
+4.  Create the AdventureWorks database by using the following SQL statement:  
 ```
 CREATE DATABASE adventureworks;
 ```
