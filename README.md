@@ -2,8 +2,9 @@
 This project restores the SQL Server AdventureWorks 2016 database backup converted to PostgreSQL schema to an Azure Database for PostgreSQL Flexible Server instance.  
 ## 1.  Provision an Azure Database for PostgreSQL Flexible Server instance
 1.  Open the script CreatePostgreSQLFlexibleServer.ps1 in Visual Studio Code or PowerShell ISE.  
-2.  Alter the parameters for the function to match what you want the servername, resource group, region and server parameters to be. 
-![Add the necessary parameter values to deploy Flexible Server.](media/1a-RunFunction.jpg 'Server Parameters')
+2.  Alter the parameters for the function to match what you want the servername, resource group, region and server parameters to be.  
+ 
+![Add the necessary parameter values to deploy Flexible Server.](media/1a-RunFunction.jpg 'Server Parameters')  
 3.  The script call will output a Server object which we can use to get the Fully Qualified Name of the server.  We will use this server name to connect to the PostgreSQL database via psql.  
 The output will look similar to this:  
 ![Fully Qualified Server Name.](media/1b-ServerName.JPG 'Server Name')
