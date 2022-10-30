@@ -13,7 +13,7 @@ The output will look similar to this:
 2.  Navigate to where PGAdmin is installed (the location of D:\Program Files\pgAdmin 4\v5\runtime on this test machine) and open a Command Prompt.
 3.  Execute the following command to connect to the PostgreSQL Flexible Server.  Be sure to use the Fully Qualified Name of your server and to enter your Password when prompted.  
 ```
-   psql.exe "host=timchapflexpgtest6.postgres.database.azure.com port=5432 dbname=postgres user=timchapman"
+   psql.exe "host=timchapflexpgtest6.postgres.database.azure.com port=5432 dbname=postgres user=postgres"
    ```
 The output will look similar to the following:  
 ![Server Login.](media/2a-PSQLLogin.JPG 'PSQL Login')
@@ -27,7 +27,7 @@ Which will have output similar to the following:
 ## 3.  Restore the AdventureWorks database on the Azure Database for PostgreSQL Flexible Server
 1.  Execute the pg_restore below.  Be sure to use the Fully Qualified Name of your server and the location of where you've cloned this repo.
 ```
-pg_restore -h timchapflexpgtest6.postgres.database.azure.com -U timchapman  -d adventureworks D:/GitHub/postgresql-adventureworks/AdventureWorksPG.gz 
+pg_restore -h timchapflexpgtest6.postgres.database.azure.com -U postgres  -d adventureworks D:/GitHub/postgresql-adventureworks/AdventureWorksPG.gz 
 ```
 The output should look similar to the following.  **Note:  This script returns 2 Azure extension related errors.  These can be safely ignored.**
 ![Restore Database.](media/3a-RestoreDatabase.JPG 'Restore Database')
