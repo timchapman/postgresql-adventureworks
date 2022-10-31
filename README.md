@@ -14,7 +14,7 @@ The output will look similar to this:
 1.  Navigate to the 'Server Parameters' section for the Azure Database for PostgreSQL Flexible Server.
 2.  Find the azure.extensions option from the Server parameters list and enable the 'TABLEFUNC' and 'UUID-OSSP' extensions.  The AdventureWorks database uses these features and the database restore will error if these extensions are not enabled.  
 3.  Click the Save option to enable these extensions on the server. 
-![Create Extensions.](media/1c-Extensions.JPG 'PostgreSQL Extensions')
+![Create Extensions.](media/1c-Extensions.jpg 'PostgreSQL Extensions')
 
 ## 3.  Create the AdventureWorks database on the Azure Database for PostgreSQL Flexible Server
 1.  Download and install PGAdmin:  https://www.pgadmin.org/download/
